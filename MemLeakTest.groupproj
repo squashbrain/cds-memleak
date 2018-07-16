@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{EE8437D8-F8C0-47EB-811C-EF85704A86B7}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="TestHarness\MemDatasetTest.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="MemDatasetTest">
+        <MSBuild Projects="TestHarness\MemDatasetTest.dproj"/>
+    </Target>
+    <Target Name="MemDatasetTest:Clean">
+        <MSBuild Projects="TestHarness\MemDatasetTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MemDatasetTest:Make">
+        <MSBuild Projects="TestHarness\MemDatasetTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="MemDatasetTest"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="MemDatasetTest:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="MemDatasetTest:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
