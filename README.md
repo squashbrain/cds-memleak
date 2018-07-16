@@ -30,7 +30,7 @@ Random Delete count=50. LogChanges=FALSE*
 
 # Binaries
 * [Download MemDatasetTest_32bit_Release.7z](./TestHarness/Win32/Release/MemDatasetTest_32bit_Release.7z)
-* [Download MemDatasetTest_32bit_Debug.7z](./TestHarness/Win32/Debug/MemDatasetTest_32bit_Debug.7z)
+* [Download MemDatasetTest_32bit_Debug.7z](./raw/master/TestHarness/Win32/Release/MemDatasetTest_32bit_Release.7z)
 
 # Authors
 Chris McClenny<br>
