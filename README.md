@@ -25,6 +25,9 @@ Random Delete count=50. LogChanges=FALSE*
  TRUE | TRUE | FALSE | LEAK     
  TRUE | TRUE | TRUE | LEAK     
 
+# Test video
+[Download test video](./Documentation/CDSMemTeakTest1.mp4)
+
 # Binaries
 * [Download MemDatasetTest_32bit_Release.7z](./TestHarness/Win32/Release/MemDatasetTest_32bit_Release.7z)
 * [Download MemDatasetTest_32bit_Debug.7z](./TestHarness/Win32/Debug/MemDatasetTest_32bit_Debug.7z)
