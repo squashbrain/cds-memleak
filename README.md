@@ -14,5 +14,5 @@ The project was created with Delphi XE7.  It was further tested in Delphi 10.2 T
 comming soon
 
 # Authors
-Chris McClenny
-Dave Clark
+* Chris McClenny
+* Dave Clark
