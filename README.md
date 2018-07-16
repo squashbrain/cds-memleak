@@ -15,13 +15,13 @@ Test Params: Record Count=1000. Field count=8.  Consecutive test count=1000.  Ra
 Random Delete count=50. LogChanges=FALSE
 
  Delete 50 random records | Edit 50 random records | Go to first record after test | results           
- --------------   | -------------- | ------------------- | --------- 
-      FALSE       |     FALSE      |        FALSE        |            
-      FALSE       |     FALSE      |        TRUE         |   LEAK     
-      FALSE       |     TRUE       |        FALSE        |            
-      FALSE       |     TRUE       |        TRUE         |   LEAK     
-      TRUE        |     FALSE      |        FALSE        |   LEAK     
-      TRUE        |     FALSE      |        TRUE         |   LEAK     
+ -------------- | -------------- | ------------------- | --------- 
+ FALSE | FALSE | FALSE
+ FALSE | FALSE | TRUE | LEAK
+      FALSE     |     TRUE       |        FALSE        |            
+      FALSE     |     TRUE       |        TRUE         |   LEAK     
+      TRUE      |     FALSE      |        FALSE        |   LEAK     
+      TRUE      |     FALSE      |        TRUE         |   LEAK     
       TRUE        |     TRUE       |        FALSE        |   LEAK     
       TRUE        |     TRUE       |        TRUE         |   LEAK     
 
