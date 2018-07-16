@@ -14,8 +14,8 @@ The project was created with Delphi XE7.  It was further tested in Delphi 10.2 T
 Test Params: Record Count=1000. Field count=8.  Consecutive test count=1000.  Random Edit count=50. 
 Random Delete count=50. LogChanges=FALSE
 
- Delete 50 random records | Edit 50 random records | Go to first record after test | results           
- -------------- | -------------- | ------------------- | :---------: 
+ Delete 50 random records | Edit 50 random records | Go to first record after test | Results           
+ :--------------: | :--------------: | :-------------------: | :---------: 
  FALSE | FALSE | FALSE
  FALSE | FALSE | TRUE | LEAK
  FALSE | TRUE | FALSE |            
