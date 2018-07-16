@@ -17,7 +17,7 @@ Random Delete count=50. LogChanges=FALSE*
  Delete 50 random records | Edit 50 random records | Go to first record after test | Results           
  :--------------: | :--------------: | :-------------------: | :---------: 
  FALSE | FALSE | FALSE
- FALSE | FALSE | TRUE | <span style=“color:red;”>LEAK</span>
+ FALSE | FALSE | TRUE | LEAK
  FALSE | TRUE | FALSE |            
  FALSE | TRUE | TRUE | LEAK     
  TRUE | FALSE | FALSE | LEAK     
