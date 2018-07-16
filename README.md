@@ -26,7 +26,7 @@ Random Delete count=50. LogChanges=FALSE*
  TRUE | TRUE | TRUE | LEAK     
 
 # Test video
-[Download test video](./Documentation/CDSMemTeakTest1.mp4)
+[Download test video](https://github.com/squashbrain/cds-memleak/raw/master/Documentation/CDSMemTeakTest1.mp4)
 
 # Binaries
 * [Download MemDatasetTest_32bit_Release.7z](https://github.com/squashbrain/cds-memleak/raw/master/TestHarness/Win32/Release/MemDatasetTest_32bit_Release.7z)
