@@ -8,7 +8,7 @@ The company I work for uses TClientDatasets everywhere.  We wrote lots of back e
 The project was created with Delphi XE7.  It was further tested in Delphi 10.2 Tokyo which still has the bug in it.
 
 # Technical documentation
-[MemDatasetLeak.docx](./Documentation/MemDatasetLeak.docx)
+[Download MemDatasetLeak.docx](https://github.com/squashbrain/cds-memleak/raw/master/Documentation/MemDatasetLeak.docx)
 
 # Sample test
 *<b>Test Params:</b> Record Count=1000. Field count=8.  Consecutive test count=1000.  Random Edit count=50. 
