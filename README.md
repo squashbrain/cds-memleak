@@ -7,7 +7,7 @@ The company I work for uses TClientDatasets everywhere.  We wrote lots of back e
 # Source
 The project was created with Delphi XE7.  It was further tested in Delphi 10.2 Tokyo which still has the bug in it.
 
-# Technical documentstion on the leak
+# Technical documentation
 [MemDatasetLeak.docx](./Documentation/MemDatasetLeak.docx)
 
 # Binaries
